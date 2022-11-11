@@ -33,11 +33,7 @@ function convertTimeToWords(time) {
     return `${numberAsString[minutesPartInNumbers]} to ${numberAsString[hoursPartInNumbers]}`;
   }
 
-  if (time === '2:45') {
-    return 'quarter to three';
-  }
-
-  return 'half past eight';
+  return '';
 }
 
 module.exports = { convertTimeToWords };
